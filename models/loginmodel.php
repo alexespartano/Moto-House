@@ -7,8 +7,6 @@ class LoginModel extends Model{
     public function auth($username,$password){
         $flag=false;
         // insertar
-        
-        echo $username.", pass: ".$password."\n";
         $fh = fopen(dirname(__DIR__).'/db/user_pass.txt','r'); #linux
         #$fh = fopen(dirname(__DIR__).'\\db\\user_pass.txt','r'); #windows
         while ($line = fgets($fh)) {

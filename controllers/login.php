@@ -20,7 +20,6 @@ class Login extends Controller{
             $_SESSION['username'] = $username;
             header('location: '.constant('URL'));
         }else{
-            echo "putada de error";
             require_once 'controllers/errores.php';
             $controller = new Errores();
             #$this->view->mensaje = "La matrícula ya está registrada";
