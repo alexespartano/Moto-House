@@ -22,16 +22,16 @@ class Login extends Controller{
         }else{
             require_once 'controllers/errores.php';
             $controller = new Errores();
-            #$this->view->mensaje = "La matrícula ya está registrada";
+            #$this->view->mensaje = "este usuario ya está registrado";
             #$this->view->render('/index');
         }
 
 /* 
         if($this->model->insert(['username' => $username, 'password' => $password])){
-            //header('location: '.constant('URL').'nuevo/alumnoCreado');
+            //header('location: '.constant('URL').'nuevo/nuevouser');
             $this->view->render('/index');
         }else{
-            $this->view->mensaje = "La matrícula ya está registrada";
+            $this->view->mensaje = "este usuario ya está registrado";
             $this->view->render('/index');
         } */
     }

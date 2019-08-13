@@ -10,8 +10,8 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #CCFFEE;">
-<a class="navbar-brand" href="#">
-    <img src="../public/img/icon-circle-28.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+<a class="navbar-brand" href="/">
+    <img src="../../public/img/icon-circle-28.jpg" width="30" height="30" class="d-inline-block align-top" alt=".">
     Moto-House
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +20,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Catalogo <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Administracion</a>
+        <a class="nav-link" href="/">Catalogo <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>

@@ -59,12 +59,18 @@
 						</a>
 					</div>
 
+
+				</form>
+				<form class="login100-form validate-form" action="login/log" method="POST">
+		<input id="username" name="username" type="hidden" value="visitante" />
+		<input id="password" name="password" type="hidden" value="visitante"/>
 					<div class="text-center p-t-136">
-						<a class="txt2" href="#">
-							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true">Acceder como Visitante</i>
+						<a href="#" class="container-login100-form-btn">
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"> <button class="login100-form-btn"  type="submit" name="submit"  style=" padding-top: -50px;">Acceder como Visitante</button></i>
 						</a>
 					</div>
 				</form>
+				
 			</div>
 		</div>
 	</div>
